@@ -10,12 +10,12 @@ on:
 env:
   MONGODB_DB_NAME: gha-demo
 jobs:
-  env:
+  test:
+    env:
     MONGODB_CLUSTER_ADDRESS: cluster0.un7q2gb.mongodb.net
     MONGODB_USERNAME: huseyin
     MONGODB_PASSWORD: 063232Hs.
     PORT: 3000
-  test:
     environment: testing
     runs-on: ubuntu-latest
     steps:
