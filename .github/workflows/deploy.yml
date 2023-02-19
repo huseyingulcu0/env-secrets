@@ -42,4 +42,6 @@ jobs:
     steps:
       - name: Output information
         run: |
-          echo "MONGODB_USERNAME: ${{ secrets.MONGODB_TEST_NAME }}
+          echo "MONGODB_USERNAME: ${{ secrets.MONGODB_TEST_NAME }}"
+
+        
