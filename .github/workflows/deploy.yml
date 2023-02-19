@@ -40,9 +40,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         env:
-          TEST_VAR: test
+          NEW_WORD: test
       - name: Output information
         run: |
           echo "MONGODB_USERNAME: $MONGODB_USERNAME"
           echo "MONGODB_DB_NAME: ${{ env.MONGODB_DB_NAME }}"
-          echo "TEST_VAR: ${{ env.TEST_VAR }}"
+          echo "TEST_VAR: $NEW_WORD"
