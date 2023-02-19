@@ -43,6 +43,6 @@ jobs:
         run: |
           echo "MONGODB_USERNAME: $MONGODB_USERNAME"
           echo "MONGODB_DB_NAME: ${{ env.MONGODB_DB_NAME }}"
-          echo "TEST_VAR: $NEW_WORD"
+          echo "TEST_VAR: $GITHUB_ACTOR"
         env:
           NEW_WORD: test
